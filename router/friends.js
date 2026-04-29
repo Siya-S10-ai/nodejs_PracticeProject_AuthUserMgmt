@@ -36,7 +36,7 @@ router.post("/",(req,res)=>{
     };
   }
   // Send response indicating user addition
-    res.send("The user" + (" ") + (req.body.firstName) + " Has been added!");
+    res.send("The user " + (req.body.firstName) + " has been added!");
 });
 
 
